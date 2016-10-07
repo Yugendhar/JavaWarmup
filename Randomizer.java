@@ -1,9 +1,13 @@
 import java.util.*;
 
 public class Randomizer{
+
+// Enqueue All random values within generated maximum range
+
 public static Queue<Integer> GetRandomValues(){
 	Random r= new Random();
 	int maxValue = r.nextInt(20)+1;
+	//Generates random range of numbers to be enqueued
 	System.out.println(maxValue);
 	Queue<Integer> q = new LinkedList<Integer>();
 	for(int i=0; i<maxValue; i++)
@@ -37,6 +41,8 @@ this.isPrime = isPrime;
 
 class Prime{
 
+
+//Method to return Queue(random number, isPrime) of generated random numbers and check if its prime or not 
 public Queue<QueuePair> GetRandomPrimeValues()
 {
 Queue<Integer> q =  Randomizer.GetRandomValues();
