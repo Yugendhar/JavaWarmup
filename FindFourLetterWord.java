@@ -13,7 +13,7 @@ public static void main(String[] args) throws FileNotFoundException
 	sc = new Scanner(new File("test.txt"));
 	sc.useDelimiter(" ");
 	int count=0;
-	System.out.println("Counting number of words from File Test.txt \n");
+	System.out.println("Counting number of words with length 4 from File  Test.txt \n");
 	while(sc.hasNext())
 	{
 		String word=sc.next();
