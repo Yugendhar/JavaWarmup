@@ -5,14 +5,10 @@ import java.util.Scanner;
 public class FindNumberofWords
 {
 	
-private static Scanner sc;
-
 public static void main(String[] args) throws FileNotFoundException
 {
-	//Input Test file to process
-	sc = new Scanner(new File("test.txt"));
-	
-	//using space as delimiter to separate input text from test.file
+
+	Scanner sc = new Scanner(new File("test.txt"));
 	sc.useDelimiter(" ");
 	int count=0;
 	System.out.println("Counting number of words from File Test.txt \n");
