@@ -14,7 +14,7 @@ public class ModifiedFibonacci{
         BigInteger[] arr= new BigInteger[n];
         arr[0] = a;
         arr[1] = b;
-        for(int i=2;i<n;i++)
+        for(int i=2;i<n;i++)yo
         {
             arr[i]= BigInteger.valueOf(-1);     
         }
