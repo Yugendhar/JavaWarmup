@@ -8,7 +8,10 @@ public class SimpleSum {
     
        Scanner sc=new Scanner(System.in);
        String input= sc.nextLine();
-       int[] arr = Arrays.stream(input.split(" "));
+       int[] arr = Arrays.stream(input.split(" "))
+    		   .mapToInt(Integer::parseInt)
+    	       .toArray();
+       
        int sum=0;
        for(int i=0;i<arr.length;i++)
        {

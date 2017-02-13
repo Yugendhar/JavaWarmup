@@ -19,7 +19,7 @@ public static void main(String[] args) throws FileNotFoundException
 		String word=sc.next();
 		//Matches length of word to 4
 		//If true, increment the count
-		if(word.charAt(0)=='a'
+		if(word.charAt(0)=='a')
 		{
 			count++;
 		}
